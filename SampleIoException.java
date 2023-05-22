@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class SampleIoException {
 	public static void main(String[] args) throws IOException {
-		System.out.println("start");
+		System.out.println("get ready folks");
 		try {
 		File f=new File("D:\\Helo.txt");//used to take a file outside of java and convert into java file
 		FileReader fr=new FileReader(f);//used to read the file
